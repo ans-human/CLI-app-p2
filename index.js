@@ -1,7 +1,8 @@
 var readlineSync = require('readline-sync');
- 
+const chalk = require('chalk');
+
 console.log('================================');
-console.log('welcome to DO YOU KNOW ANSHUMAN!');
+console.log(chalk.red('Welcome to DO YOU KNOW ANSHUMAN!'));
 console.log('================================');
 
 var userName = readlineSync.question('May I have your name? ');
